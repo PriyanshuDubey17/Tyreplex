@@ -1,0 +1,25 @@
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+nav {
+  box-shadow: 1px 1px 1px rgb(154, 147, 147);
+}
+
+.navbar-nav .nav-item {
+  margin-left: 5px; /* Adjust spacing as needed */
+  margin-right: 5px; /* Adjust spacing as needed */
+  font-weight: bold;
+  color: black !important;
+}
+
+.d-flex.item-center {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-toggler-icon {
+  margin-right: 10px; /* Adjust spacing between toggler and login text */
+}

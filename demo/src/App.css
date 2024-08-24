@@ -1,0 +1,42 @@
+.yellow {
+  color: #facc29;
+}
+.divScroll {
+  overflow-x: auto;
+}
+
+.divScroll::-webkit-scrollbar {
+  width: 0;
+}
+
+.div-review {
+  border: 1px solid #e4dcdc;
+}
+.hero {
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+input {
+  width: 100%;
+  border: 1px solid #e2c671;
+}
+
+@media (max-width: 768px) {
+  .heading {
+    width: 100% !important;
+    font-size: 16px !important;
+  }
+  .review {
+    margin: 0 !important;
+    padding-left: 10px !important;
+  }
+  .feedback {
+    height: 9rem !important;
+  }
+  .small-div {
+    width: 17rem !important;
+  }
+  .tyre-img {
+    width: 7rem !important;
+    height: 8rem !important;
+  }
+}
